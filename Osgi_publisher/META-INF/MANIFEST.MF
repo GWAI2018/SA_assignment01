@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osgi_publisher
+Bundle-SymbolicName: Osgi_publisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_publisher.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: Osgi.publisher
+Bundle-ActivationPolicy: lazy
+Export-Package: osgi_publisher
